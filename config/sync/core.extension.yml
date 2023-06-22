@@ -22,6 +22,8 @@ module:
   help: 0
   history: 0
   image: 0
+  jquery_ui: 0
+  jquery_ui_accordion: 0
   link: 0
   mailsystem: 0
   menu_item_role_access: 0
@@ -44,6 +46,9 @@ module:
   toolbar: 0
   tour: 0
   user: 0
+  user_redirect: 0
+  views_accordion: 0
+  views_role_based_global_text: 0
   views_ui: 0
   views: 10
 theme:

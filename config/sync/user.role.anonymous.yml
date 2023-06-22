@@ -2,9 +2,12 @@ uuid: a8c4e420-e62b-468d-b26f-e7aff5befe36
 langcode: en
 status: true
 dependencies:
+  config:
+    - filter.format.full_html_format
   module:
     - comment
     - contact
+    - filter
     - search
     - system
 _core:
@@ -18,3 +21,4 @@ permissions:
   - 'access content'
   - 'access site-wide contact form'
   - 'search content'
+  - 'use text format full_html_format'
