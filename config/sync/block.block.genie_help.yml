@@ -1,6 +1,6 @@
 uuid: 6a8723fd-0f0e-4ee8-b459-c0b91fbf231e
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - help
@@ -11,7 +11,7 @@ _core:
 id: genie_help
 theme: genie
 region: content_above
-weight: 0
+weight: -6
 provider: null
 plugin: help_block
 settings:

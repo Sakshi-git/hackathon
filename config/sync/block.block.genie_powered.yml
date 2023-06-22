@@ -11,7 +11,7 @@ _core:
 id: genie_powered
 theme: genie
 region: footer_bottom
-weight: 0
+weight: -7
 provider: null
 plugin: system_powered_by_block
 settings:

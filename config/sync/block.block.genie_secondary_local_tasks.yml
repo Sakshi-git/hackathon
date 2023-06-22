@@ -1,6 +1,6 @@
 uuid: 84aaa9f6-a1ba-4692-9a11-137e61911ef0
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - genie
@@ -9,7 +9,7 @@ _core:
 id: genie_secondary_local_tasks
 theme: genie
 region: highlighted
-weight: -2
+weight: -4
 provider: null
 plugin: local_tasks_block
 settings:

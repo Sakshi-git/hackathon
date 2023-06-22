@@ -1,6 +1,6 @@
 uuid: 6bb234c1-88cd-48a7-bdcd-c252ce43d69b
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - search
@@ -11,7 +11,7 @@ _core:
 id: genie_search_form_wide
 theme: genie
 region: secondary_menu
-weight: -5
+weight: -7
 provider: null
 plugin: search_form_block
 settings:

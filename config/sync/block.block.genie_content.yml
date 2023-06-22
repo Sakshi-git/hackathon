@@ -11,7 +11,7 @@ _core:
 id: genie_content
 theme: genie
 region: content
-weight: 0
+weight: -7
 provider: null
 plugin: system_main_block
 settings:

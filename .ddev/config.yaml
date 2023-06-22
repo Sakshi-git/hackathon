@@ -1,5 +1,5 @@
 name: hackathon-hexa-squad
-type: drupal9
+type: drupal10
 docroot: web
 php_version: "8.0"
 webserver_type: nginx-fpm

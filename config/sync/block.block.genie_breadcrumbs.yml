@@ -1,6 +1,6 @@
 uuid: 78dd68c5-2369-4cfb-a6ea-c7c2e479d50c
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: genie_breadcrumbs
 theme: genie
 region: breadcrumb
-weight: 0
+weight: -7
 provider: null
 plugin: system_breadcrumb_block
 settings:
