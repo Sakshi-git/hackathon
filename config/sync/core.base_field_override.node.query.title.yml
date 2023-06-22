@@ -1,18 +1,17 @@
-uuid: b1680675-acdc-43b6-99c9-1c8927c3d0f4
+uuid: 5ebe798a-be5f-4534-bd5d-581f0f5eb3a0
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_question
     - node.type.query
-id: node.query.field_question
-field_name: field_question
+id: node.query.title
+field_name: title
 entity_type: node
 bundle: query
 label: Question
 description: ''
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

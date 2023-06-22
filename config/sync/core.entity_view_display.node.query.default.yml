@@ -6,7 +6,6 @@ dependencies:
     - core.entity_view_display.comment.comment.query_comments
     - field.field.node.query.body
     - field.field.node.query.field_add_screenshot
-    - field.field.node.query.field_question
     - field.field.node.query.field_reply
     - field.field.node.query.field_technology
     - image.style.thumbnail
@@ -38,14 +37,6 @@ content:
         attribute: lazy
     third_party_settings: {  }
     weight: 3
-    region: content
-  field_question:
-    type: string
-    label: inline
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    weight: 1
     region: content
   field_reply:
     type: comment_default
