@@ -1,0 +1,38 @@
+uuid: 79ce4b73-757c-4154-ad64-b7c22ed29fec
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.query.body
+    - field.field.node.query.field_add_screenshot
+    - field.field.node.query.field_question
+    - field.field.node.query.field_reply
+    - field.field.node.query.field_technology
+    - node.type.query
+  module:
+    - text
+    - user
+id: node.query.teaser
+targetEntityType: node
+bundle: query
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_add_screenshot: true
+  field_question: true
+  field_reply: true
+  field_technology: true

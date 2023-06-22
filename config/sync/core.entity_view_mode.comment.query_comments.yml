@@ -1,0 +1,10 @@
+uuid: 00dfd801-ae13-49fa-b8a8-c159b6035f0b
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+id: comment.query_comments
+label: 'query comments'
+targetEntityType: comment
+cache: true

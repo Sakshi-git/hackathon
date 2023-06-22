@@ -1,0 +1,10 @@
+uuid: 12de54dc-fec8-4976-a963-111d388163f4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.query
+label: Query
+targetEntityType: node
+cache: true
