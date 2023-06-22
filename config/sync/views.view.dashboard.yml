@@ -34,7 +34,7 @@ display:
           group_type: group
           admin_label: ''
           plugin_id: field
-          label: ''
+          label: Query
           exclude: false
           alter:
             alter_text: false
@@ -97,7 +97,7 @@ display:
           group_type: group
           admin_label: ''
           plugin_id: field
-          label: ''
+          label: Technology
           exclude: false
           alter:
             alter_text: false
@@ -327,17 +327,25 @@ display:
           default_row_class: true
           columns:
             title: title
+            field_technology: field_technology
           default: '-1'
           info:
             title:
               sortable: false
               default_sort_order: asc
-              align: ''
+              align: views-align-left
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_technology:
+              sortable: false
+              default_sort_order: asc
+              align: views-align-left
               separator: ''
               empty_column: false
               responsive: ''
           override: true
-          sticky: false
+          sticky: true
           summary: ''
           empty_table: false
           caption: ''
