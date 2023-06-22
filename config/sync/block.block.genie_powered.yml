@@ -1,0 +1,22 @@
+uuid: b358a431-b8b5-4b90-b70b-ac99eec49818
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - genie
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: genie_powered
+theme: genie
+region: footer_bottom
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

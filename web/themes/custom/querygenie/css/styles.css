@@ -1,0 +1,77 @@
+.site-header__initial {
+    background-color: #FFF !important;
+}
+#block-genie-site-branding {
+    background-image: none;
+    .site-branding__inner {
+        > a {
+            display: none;
+        }
+        .site-branding__text,
+        .primary-nav__menu-link {
+            color: #CC5500;
+            font-family: 'Hind Vadodara';
+        }
+    }
+}
+.primary-nav__menu-link-inner:after {
+    border-top: solid 5px #CC5500;
+}
+.view-header {
+    > a {
+        padding: 1em;
+        background-color: #CC5500;
+        text-decoration: none;
+        color: #FFF;
+        border-radius: 0.5em;
+    }
+}
+#block-genie-page-title {
+    display: none;
+}
+#edit-submit-dashboard {
+    padding: 1em;
+        background-color: #CC5500;
+        text-decoration: none;
+        color: #FFF;
+        border-radius: 0.5em;
+}
+:is([type="color"],[type="date"],[type="datetime-local"],[type="email"],[type="file"],[type="month"],[type="number"],[type="password"],[type="search"],[type="tel"],[type="text"],[type="time"],[type="url"],[type="week"],textarea):focus,
+select:focus {
+    outline: none;
+    border: 1px solid #CC5500;
+}
+.views-table {
+    width: 100%;
+}
+:is(.forum table,.text-content table,.views-table,.draggable-table) th {
+    border-block-end: 2px solid #CC5500;
+}
+.region--breadcrumb {
+    display: none;
+}
+.button--primary {
+    padding: 1em;
+        background-color: #CC5500;
+        text-decoration: none;
+        color: #FFF;
+        border-radius: 0.5em;
+}
+.site-footer__inner {
+    padding: 0
+}
+#block-genie-powered {
+    margin: 2vh;
+    text-align: right;
+}
+a:hover {
+    color: #CC5500;
+}
+#edit-preview {
+    border: 2px solid #CC5500;
+    color: #CC5500;
+    padding: 1em;
+}
+body:not(.is-always-mobile-nav) .is-fixed .sticky-header-toggle {
+    visibility: hidden;
+}

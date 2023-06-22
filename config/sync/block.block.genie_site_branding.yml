@@ -1,0 +1,25 @@
+uuid: 4b97b132-244c-4393-9d21-b0a0927bb98c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - genie
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: genie_site_branding
+theme: genie
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

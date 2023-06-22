@@ -1,0 +1,20 @@
+uuid: a2c072c4-7fb0-4e38-a2a5-7ed94d25c4e9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - genie
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: genie_page_title
+theme: genie
+region: content_above
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

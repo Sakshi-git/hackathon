@@ -1,0 +1,22 @@
+uuid: 6a8723fd-0f0e-4ee8-b459-c0b91fbf231e
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - genie
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: genie_help
+theme: genie
+region: content_above
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

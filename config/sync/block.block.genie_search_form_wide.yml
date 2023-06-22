@@ -1,0 +1,23 @@
+uuid: 6bb234c1-88cd-48a7-bdcd-c252ce43d69b
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - genie
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: genie_search_form_wide
+theme: genie
+region: secondary_menu
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

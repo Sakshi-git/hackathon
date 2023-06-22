@@ -1,0 +1,22 @@
+uuid: 423eb11a-9917-4989-aad7-75e72000fda1
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - genie
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: genie_content
+theme: genie
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }
