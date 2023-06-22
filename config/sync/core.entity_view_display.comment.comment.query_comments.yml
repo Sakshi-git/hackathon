@@ -1,22 +1,23 @@
-uuid: bac22aab-8e6f-4c6d-aeb2-0f1b007089e3
+uuid: 71f1666c-d99a-4811-91ef-279b19f50cf7
 langcode: en
 status: true
 dependencies:
   config:
     - comment.type.comment
+    - core.entity_view_mode.comment.query_comments
     - field.field.comment.comment.comment_body
   module:
     - text
 _core:
   default_config_hash: aBQUGsQ46M4048fIlFuTXwl2zV0j2cJX89CTUobh9hA
-id: comment.comment.default
+id: comment.comment.query_comments
 targetEntityType: comment
 bundle: comment
-mode: default
+mode: query_comments
 content:
   comment_body:
     type: text_trimmed
-    label: hidden
+    label: inline
     settings:
       trim_length: 600
     third_party_settings: {  }

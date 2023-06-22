@@ -1,6 +1,6 @@
 uuid: 0317c2dc-4e33-4185-97b7-8a865ab0accd
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - core.entity_view_display.comment.comment.default
@@ -26,7 +26,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 101
+    weight: 2
     region: content
   field_add_screenshot:
     type: image
@@ -37,7 +37,7 @@ content:
       image_loading:
         attribute: lazy
     third_party_settings: {  }
-    weight: 103
+    weight: 3
     region: content
   field_question:
     type: string
@@ -45,7 +45,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 102
+    weight: 1
     region: content
   field_reply:
     type: comment_default
@@ -54,7 +54,7 @@ content:
       view_mode: default
       pager_id: 0
     third_party_settings: {  }
-    weight: 105
+    weight: 4
     region: content
   field_technology:
     type: entity_reference_label
@@ -62,11 +62,11 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 104
+    weight: 0
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 5
     region: content
 hidden: {  }

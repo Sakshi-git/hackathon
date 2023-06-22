@@ -3,12 +3,10 @@ langcode: en
 status: true
 dependencies:
   config:
-    - filter.format.basic_html
     - node.type.query
   module:
     - comment
     - contact
-    - filter
     - node
     - search
     - shortcut
@@ -30,4 +28,3 @@ permissions:
   - 'post comments'
   - 'search content'
   - 'skip comment approval'
-  - 'use text format basic_html'
