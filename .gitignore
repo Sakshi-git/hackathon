@@ -16,4 +16,4 @@ web/sites/*/files/
 web/sites/default/private/*
 !web/sites/default/private/.htaccess
 
-.ddev/
+/.ddev/
