@@ -18,7 +18,7 @@
     border-top: solid 5px #CC5500;
 }
 .view-header {
-    > a {
+    > p a {
         padding: 1em;
         background-color: #CC5500;
         text-decoration: none;
@@ -35,6 +35,8 @@
         text-decoration: none;
         color: #FFF;
         border-radius: 0.5em;
+        border-color: #CC5500;
+        margin-top: 0;
 }
 :is([type="color"],[type="date"],[type="datetime-local"],[type="email"],[type="file"],[type="month"],[type="number"],[type="password"],[type="search"],[type="tel"],[type="text"],[type="time"],[type="url"],[type="week"],textarea):focus,
 select:focus {
@@ -56,6 +58,26 @@ select:focus {
         text-decoration: none;
         color: #FFF;
         border-radius: 0.5em;
+        margin-top: 0;
+}
+.button--primary:focus {
+    outline: none;
+}
+.button--primary:hover {
+    background-color: #CC5500;
+    opacity: 0.8;
+}
+.social-bar {
+    background-color: transparent;
+}
+#main-wrapper {
+    height: 100%;
+}
+.site-footer {
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+    z-index: 10;
 }
 .site-footer__inner {
     padding: 0
@@ -67,11 +89,25 @@ select:focus {
 a:hover {
     color: #CC5500;
 }
-#edit-preview {
+a:focus {
+    outline: none;
+}
+#edit-preview,
+input[value="Remove"] {
     border: 2px solid #CC5500;
     color: #CC5500;
     padding: 1em;
 }
 body:not(.is-always-mobile-nav) .is-fixed .sticky-header-toggle {
     visibility: hidden;
+}
+.ui-accordion .ui-accordion-header {
+    padding: 1rem;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    background-color: rgb(204,85,0, 0.1);
+    border: 1px solid #CC5500;
+}
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+    color: #000;
 }
