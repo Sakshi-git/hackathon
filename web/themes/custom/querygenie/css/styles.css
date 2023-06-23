@@ -64,6 +64,8 @@ select:focus {
 }
 .button--primary:focus {
     outline: none;
+    background-color: #CC5500;
+    border-color: #CC5500;
 }
 .button--primary:hover {
     background-color: #CC5500;
@@ -126,4 +128,31 @@ body:not(.is-always-mobile-nav) .is-fixed .sticky-header-toggle {
 }
 .main-content__container {
     padding-top: 10px;
+}
+input[type="checkbox"]:focus, input[type="radio"]:focus,
+input[type="checkbox"]:hover, input[type="radio"]:hover {
+    outline: 0;
+    border-color: #CC5500;
+}
+.comment__text-wrapper {
+    background-color: #eee;
+    padding: 2rem;
+    box-shadow: rgba(204, 85, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 1rem;
+}
+.comment__links-item {
+    padding: 0.5rem;
+    background-color: #CC5500;
+    border-radius: 0.2rem;
+    > a {
+        color: #fff;
+        text-decoration: none;
+        outline: none;
+    }
+    > a:hover {
+        text-decoration: none;
+    }
+    > a:focus-visible {
+        outline: none;
+    }
 }
