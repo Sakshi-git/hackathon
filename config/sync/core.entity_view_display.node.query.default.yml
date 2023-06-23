@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_display.comment.comment.query_comments
+    - core.entity_view_display.comment.comment.default
     - field.field.node.query.body
     - field.field.node.query.field_add_screenshot
     - field.field.node.query.field_reply
@@ -42,7 +42,7 @@ content:
     type: comment_default
     label: hidden
     settings:
-      view_mode: query_comments
+      view_mode: default
       pager_id: 0
     third_party_settings: {  }
     weight: 4
