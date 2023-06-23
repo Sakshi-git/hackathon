@@ -64,6 +64,8 @@ select:focus {
 }
 .button--primary:focus {
     outline: none;
+    background-color: #CC5500;
+    border-color: #CC5500;
 }
 .button--primary:hover {
     background-color: #CC5500;
