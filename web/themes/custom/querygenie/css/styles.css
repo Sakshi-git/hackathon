@@ -27,8 +27,8 @@
         border-radius: 0.5em;
     }
 }
-#block-genie-page-title {
-    display: none;
+#block-genie-page-title h1{
+    font-size: 2.75rem;
 }
 #edit-submit-dashboard {
     padding: 1em;
@@ -123,4 +123,7 @@ body:not(.is-always-mobile-nav) .is-fixed .sticky-header-toggle {
 }
 .wide-image {
     margin-left: 0;
+}
+.main-content__container {
+    padding-top: 10px;
 }
