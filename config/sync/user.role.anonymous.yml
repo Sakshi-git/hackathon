@@ -4,10 +4,12 @@ status: true
 dependencies:
   config:
     - filter.format.full_html_format
+    - node.type.query
   module:
     - comment
     - contact
     - filter
+    - node
     - search
     - system
 _core:
@@ -20,5 +22,9 @@ permissions:
   - 'access comments'
   - 'access content'
   - 'access site-wide contact form'
+  - 'create query content'
+  - 'edit any query content'
+  - 'edit own query content'
+  - 'post comments'
   - 'search content'
   - 'use text format full_html_format'

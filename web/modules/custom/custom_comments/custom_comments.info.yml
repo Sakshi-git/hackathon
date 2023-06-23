@@ -1,0 +1,5 @@
+name: 'custom comments'
+type: module
+description: 'Add custom comments functionality'
+package: custom
+core_version_requirement: ^10
