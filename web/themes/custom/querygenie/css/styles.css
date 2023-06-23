@@ -121,3 +121,6 @@ body:not(.is-always-mobile-nav) .is-fixed .sticky-header-toggle {
         }
     }
 }
+.wide-image {
+    margin-left: 0;
+}
